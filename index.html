@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <div class="container">
+      <div class="container">
+          <div class="contenedor-titulo">
+            <h1 class="titulo">CRISTHIAN EDUARDO CUSTODIO HINOSTROZA</h1>
+            <h6>Lima - Perú <img src="img/icons8-down-arrow-100.png" alt=""></h6>
+          </div>    
+        </div>
+        <div class="aboutme">
+            <h1>Acerca de mi { }</h1>
+            <p >"Soy una persona que le gustan los retos, bueno para liderar y trabajar en equipo. Me destaco en resolver problemas, la puntualidad es una de mis virtudes y siempre respetando a mis compañeros de trabajo.</p>
+            <p>En el ambito laboral soy muy pro-activo y me adapto a los cambios que sean necesarios, trabajando bajo presión en el cual saca lo mejor de mi."</p>
+        </div>
+        <h1 id="expe">Experiencias Laborales</h1>
+        <div class="card mb-3" style="max-width: 100%;" id="card1">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/minimarket.jpg" >
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <p class="card-text">Tuve un desempeño laboral como ayudante en una tienda (Minimarket) y en un taller de artesania.</p>
+                  <p class="card-text"><small class="text-muted">Periodo: 2016-2018</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="card mb-3" style="max-width: 100%;" id="card2">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/flv.jpg" >
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <p class="card-text">Me desempeñe como Fiscalizador para el JNE, en las votaciones presidenciales 2021.</p>
+                  <p class="card-text"><small class="text-muted">Periodo: 04/2021 - 06/2021</small></p>
+                </div>
+              </div>
+            </div>
+        </div>
+            <!--corregir-->
+            <div class="contenedor-carrera">
+                <h1>Sobre mi carrera y aprendizaje</h1>
+                <h3>Técnico en Ingenieria de Software con IA</h3>
+                <div class="contenedor-2">
+                    <div class="contenedor-desc">
+                        <p class="lh-lg">En este segundo semestre de mi carrera, obtuve muchas habilidades en el ambito de la programación, obteniendo grandes conocimientos en lenguanjes de programación como Python, Java, JavaScript y SQL. Poniendo en practicas de los conocimientos adquiridos en HTMl y CSS cree algunas paginas web que lo podrás ver aqui <a href="https://custox06.github.io/historia.github.io/" target="_blank">Pagina Web 1</a> <a href="https://custox06.github.io/alien.github.io/" target="_blank">Pagina Web 2</a> <a href="https://custox06.github.io/dents.github.io/#content" target="_blank">Pagina Web 3</a>, fueron algunas practicas que quedaron inconclusas, pero adquiri buenos conocimientos en el desarrollo web.</p>
+                        <p class="lh-lg">En cuanto a los otros lenguajes, cree algunos programas en clase con JavaSwin y Tkinter, librerias para la creación de programas de escritorio, en el cual fue un gran reto ya que es un poco complejo.</p>
+                        <p class="lh-lg">Unas de mis grandes espectativas es ser un excelente programador, es por el cual que cada dia estudio para adquirir nuevos conocimientos y actualizarme de las nuevas tecnologias que piden las empresas en este año 2021 hacia adelante.</p>
+                    </div>
+                    <div class="contenedor-img">
+                        <img src="img/developer.jpg" class="rounded" alt="computadora">
+                    </div>
+                </div> 
+            </div>
+        
+        <div class="container" id="formulario">
+            <h1>Formulario de contacto</h1>
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Nombres</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Apellidos</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+        </div>
+          <div class="contacto">
+            <h2>Contáctame</h2>
+            <div class="contacto-contenedor">
+              <div class="contacto-link">
+                <h4><img src="img/mail.svg" alt=""> cryisthian_06@hotmail.com</h4>
+                <h4><img src="img/phone.svg" alt=""> +51 946285100</h4>
+                <h4><img src="img/linkedin.svg" alt=""> <a href="https://www.linkedin.com/in/cristhian-custodio-826106205/" target="_blank">Linkedin</a> </h4>
+              </div>
+              <!--Google map-->
+              <div  class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d31216.14923318002!2d-77.06001468085937!3d-12.042236619356665!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1625244560809!5m2!1ses!2spe" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+            </div>
+          </div>
+    </div>
+</body>
+</html>

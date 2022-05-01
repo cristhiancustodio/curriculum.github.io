@@ -1,3 +1,3 @@
 # curriculum.github.io
 
-https://custox06.github.io/curriculum.github.io/
+https://cristhiancustodio.github.io/curriculum.github.io/
